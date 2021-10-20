@@ -1,0 +1,48 @@
+body {
+    font-family:'Calibri', sans-serif;
+    margin: 0;
+    }
+
+.title {
+    background-image: url("../images/apple-pie.jpg");
+    color: white;
+    background-size: cover;
+    background-position:center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:xx-large;
+    font-weight: lighter; /* why doesn't work? */
+}
+
+.discription p {
+    font-size: 25px;
+    padding: 30px 80px 0px 80px;
+    }
+
+.discription img {
+    display: block;
+    margin:auto;
+    }
+
+
+.ingredients {
+    font-size: 20px;
+    padding: 10px 80px 0px 80px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    list-style-type: '- ';
+}
+
+.ingredients img {
+    display: block;
+    margin:auto;
+}
+
+.directions {
+    font-size: 20px;
+    padding: 10px 80px 80px 80px;
+}
